@@ -1,0 +1,5 @@
+{
+  "main": "hls_operator_aggregate",
+  "description": "Aggregate count, sum, min and max of a stream of 64bit values",
+  "options": { }
+}
