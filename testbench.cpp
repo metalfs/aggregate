@@ -14,7 +14,7 @@ int main() {
     in.write(element);
   } while (!element.last);
 
-  hls_operator_filter(in, out, 2, 3);
+  hls_operator_aggregate(in, out);
 
   FILE * outfile = fopen("../../../../testl.filtered.bin", "w");
   do {
