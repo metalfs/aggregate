@@ -93,4 +93,6 @@ void hls_operator_aggregate(mtl_stream &in, mtl_stream &out) {
 
 }
 
-#include "testbench.cpp"
+#ifndef __SYNTHESIS__
+int main(int argc, char* argv[]) { return 0; }
+#endif
